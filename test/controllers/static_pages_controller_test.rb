@@ -1,5 +1,9 @@
 require 'test_helper'
 
+def setup
+  @app_name = "Home | Ruby on Rails Tutuorial Sample App"
+end
+
 class StaticPagesControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
