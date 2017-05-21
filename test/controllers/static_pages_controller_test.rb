@@ -30,6 +30,6 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get contacts" do
     get :contacts
     assert_response :success
-    #assert_select "title", "Contacts | #{@app_name}"
+    assert_select "title", "Contacts | #{@app_name}"
   end
 end
